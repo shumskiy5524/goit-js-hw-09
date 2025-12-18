@@ -48,7 +48,7 @@ const markup = images
   )
   .join("");
 
-
+gallery.innerHTML = markup;
 
 new SimpleLightbox(".gallery a", {
   captions: true,
